@@ -19,14 +19,6 @@
 
 ---
 
-## 🎬 Demo
-
-<p align="center">
-  <img src="assets/demo.gif"/>
-</p>
-
----
-
 ## ✨ Features
 
 - 📚 Subject Management
@@ -38,8 +30,6 @@
 - 👨‍💻 Developer Page
 
 ---
-
-## 📸 Screenshots
 
 ## 📸 Screenshots
 
