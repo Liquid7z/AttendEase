@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvSubjectTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DBMS"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/circularAttendance"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:max="100"/>
+
+        <TextView
+            android:id="@+id/tvAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="Attendance: 75%"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvConducted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Conducted: 20"/>
+
+        <TextView
+            android:id="@+id/tvAttended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attended: 15"/>
+
+        <TextView
+            android:id="@+id/tvNeedClasses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Need 0 classes"/>
+
+        <TextView
+            android:id="@+id/tvSafeBunks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safe Bunks: 0"/>
+
+        <TextView
+            android:id="@+id/tvAttendPrediction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Attend next 5 → 80%"/>
+
+        <TextView
+            android:id="@+id/tvMissPrediction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miss next 5 → 65%"/>
+
+    </LinearLayout>
+
+</ScrollView>

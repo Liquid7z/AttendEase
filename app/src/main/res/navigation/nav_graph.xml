@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.attendease.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"/>
+
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="com.example.attendease.ui.subjects.SubjectsFragment"
+        android:label="Subjects"/>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.example.attendease.ui.statistics.StatisticsFragment"
+        android:label="Statistics"/>
+
+    <fragment
+        android:id="@+id/developerFragment"
+        android:name="com.example.attendease.ui.developer.DeveloperFragment"
+        android:label="About"/>
+
+</navigation>

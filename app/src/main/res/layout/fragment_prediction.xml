@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+android:fitsSystemWindows="true"
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="Attendance Prediction"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etConducted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classes Conducted"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etAttended"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classes Attended"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnPredict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Predict Attendance"/>
+
+    <TextView
+        android:id="@+id/tvAttendPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvMissPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+</LinearLayout>
