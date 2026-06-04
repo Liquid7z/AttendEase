@@ -41,13 +41,15 @@
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 | Dashboard | Subjects |
 |------------|------------|
-| ![](assets/dashboard.png) | ![](assets/subjects.png) |
+| ![](assets/dashboard.jpeg) | ![](assets/subjects.jpeg) |
 
 | Statistics | About |
 |------------|------------|
-| ![](assets/stats.png) | ![](assets/about.png) |
+| ![](assets/stats.jpeg) | ![](assets/about.jpeg) |
 
 ---
 
